@@ -3,7 +3,7 @@
 This is an analog of the babel plugin included with react-loadable.  
 The differences are:  
 - transformer does not support Loadable.Map case
-- moudles prop contains only relative path (as is in loader prop)
+- modules prop contains only relative path (as is in loader prop)
 
 Providing opts.webpack and opts.modules for every loadable component is a lot of manual work to remember to do.
 
