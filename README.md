@@ -9,7 +9,7 @@ Providing opts.webpack and opts.modules for every loadable component is a lot of
 
 Instead you can add the ts transformer to your config and it will automate it for you:
 
-```
+```js
 const reactLoadableTransformer = require('react-loadable-ts-transformer');
 config = {
     module: {
@@ -31,7 +31,7 @@ config = {
 
 Input
 
-```
+```js
 import Loadable from 'react-loadable';
 
 const LoadableMyComponent = Loadable({
@@ -41,7 +41,7 @@ const LoadableMyComponent = Loadable({
 
 Output
 
-```
+```js
 import Loadable from 'react-loadable';
 import path from 'path';
 
