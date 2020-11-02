@@ -51,3 +51,13 @@ const LoadableMyComponent = Loadable({
     modules: ['./MyComponent'],
 });
 ```
+
+## Install
+```bash
+npm install react-loadable-ts-transformer
+```
+
+or
+```bash
+yarn add react-loadable-ts-transformer
+```
